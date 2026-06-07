@@ -1,0 +1,25 @@
+# Ignore the entire data directory and all its contents
+data/
+
+# Ignore model checkpoints/weights (usually very large)
+model/
+!model/README.md
+
+# Python caches and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# IDE/Editor configurations
+.idea/
+.vscode/
+
+# Compressed/archive files
+*.zip
+*.tar.gz
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
